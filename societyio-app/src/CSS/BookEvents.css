@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Rubik:ital,wght@0,400;0,500;1,500;1,600&display=swap');
+
+/* input for booking */
+.bookevent-container {
+    height: 80vh;
+    width: 50%;
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
+.bookingDates {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.event-name {
+    border-style: none;
+    border-bottom: 2px solid black;
+}
+.img-event img{
+    height: 300px;
+}
+.back-btn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 0px 5px 38px;
+    border-radius: 2px;
+    border: 1px solid orange;
+    background: radial-gradient(159.32% 1145.87% at 100% 126.14%, #ffa600 0%, rgba(221, 243, 23, 0.884) 100%);
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+    margin-left: 50%;
+    width: 28%;
+    align-items: center;
+}
